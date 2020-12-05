@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20f1b3478614458a91127297df9e77b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_20f1b3478614458a91127297df9e77b7" ></div>
+        
+</body>
+<script>    
+    
+            var map_20f1b3478614458a91127297df9e77b7 = L.map(
+                "map_20f1b3478614458a91127297df9e77b7",
+                {
+                    center: [39.84056433648649, -62.711873071002785],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b680d73114da45299137c4d1bc431358 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+            var circle_b1a8ac1345fd4c5dba896a861d174fad = L.circle(
+                [41.2951563, -83.1555438],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 490000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_093cb0b347e941b7b6bd6ec616e04d08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8bdfd8b8330495dbcb64ebbb6d90753 = $(`<div id="html_f8bdfd8b8330495dbcb64ebbb6d90753" style="width: 100.0%; height: 100.0%;">Cedar Point  Num awarded steel coasters: 7</div>`)[0];
+            popup_093cb0b347e941b7b6bd6ec616e04d08.setContent(html_f8bdfd8b8330495dbcb64ebbb6d90753);
+        
+
+        circle_b1a8ac1345fd4c5dba896a861d174fad.bindPopup(popup_093cb0b347e941b7b6bd6ec616e04d08)
+        ;
+
+        
+    
+    
+            var circle_7ea47198557f4be18fd2101bc8abafff = L.circle(
+                [37.27892105, -76.69448606443117],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_64f60e3880dd4d35ad57dc77cb865d9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8c60ce2fcac4b3693082217197b0662 = $(`<div id="html_b8c60ce2fcac4b3693082217197b0662" style="width: 100.0%; height: 100.0%;">Busch Gardens Williamsburg  Num awarded steel coasters: 4</div>`)[0];
+            popup_64f60e3880dd4d35ad57dc77cb865d9b.setContent(html_b8c60ce2fcac4b3693082217197b0662);
+        
+
+        circle_7ea47198557f4be18fd2101bc8abafff.bindPopup(popup_64f60e3880dd4d35ad57dc77cb865d9b)
+        ;
+
+        
+    
+    
+            var circle_31296ae3d5b94b2f88e25a4b850c5150 = L.circle(
+                [42.066186, -72.6484627],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_9776dc1a59cc47f98d5cfa4b79767559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f06e6a6cbdb8471ab690b5845587562c = $(`<div id="html_f06e6a6cbdb8471ab690b5845587562c" style="width: 100.0%; height: 100.0%;">Six Flags New England  Num awarded steel coasters: 4</div>`)[0];
+            popup_9776dc1a59cc47f98d5cfa4b79767559.setContent(html_f06e6a6cbdb8471ab690b5845587562c);
+        
+
+        circle_31296ae3d5b94b2f88e25a4b850c5150.bindPopup(popup_9776dc1a59cc47f98d5cfa4b79767559)
+        ;
+
+        
+    
+    
+            var circle_9cf5410eb4b14a3abb13acb55c7fac91 = L.circle(
+                [34.413819, -118.5610378],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_5e36837f49ea4af7ac48a155432f599c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38dffe926186426c9822edd56fac7b44 = $(`<div id="html_38dffe926186426c9822edd56fac7b44" style="width: 100.0%; height: 100.0%;">Six Flags Magic Mountain  Num awarded steel coasters: 3</div>`)[0];
+            popup_5e36837f49ea4af7ac48a155432f599c.setContent(html_38dffe926186426c9822edd56fac7b44);
+        
+
+        circle_9cf5410eb4b14a3abb13acb55c7fac91.bindPopup(popup_5e36837f49ea4af7ac48a155432f599c)
+        ;
+
+        
+    
+    
+            var circle_a0f9af70f16e42c1904369f0e21e1194 = L.circle(
+                [27.8644695, -82.3800931],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_0149c006913542308f6ab57adb1e37f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ac1dc7d071442bb010d0284c6395e7 = $(`<div id="html_29ac1dc7d071442bb010d0284c6395e7" style="width: 100.0%; height: 100.0%;">Busch Gardens Tampa  Num awarded steel coasters: 3</div>`)[0];
+            popup_0149c006913542308f6ab57adb1e37f8.setContent(html_29ac1dc7d071442bb010d0284c6395e7);
+        
+
+        circle_a0f9af70f16e42c1904369f0e21e1194.bindPopup(popup_0149c006913542308f6ab57adb1e37f8)
+        ;
+
+        
+    
+    
+            var circle_f65275e3acdb412eacbdd6a50dfa1d91 = L.circle(
+                [37.8601402, -77.4641492],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_4eda28e343dc4a498a24b0af845c9a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53129708ddca4f0781435311f24368c7 = $(`<div id="html_53129708ddca4f0781435311f24368c7" style="width: 100.0%; height: 100.0%;">Kings Dominion  Num awarded steel coasters: 3</div>`)[0];
+            popup_4eda28e343dc4a498a24b0af845c9a58.setContent(html_53129708ddca4f0781435311f24368c7);
+        
+
+        circle_f65275e3acdb412eacbdd6a50dfa1d91.bindPopup(popup_4eda28e343dc4a498a24b0af845c9a58)
+        ;
+
+        
+    
+    
+            var circle_2653da04145545a7bed34d759df8bbd0 = L.circle(
+                [42.370377, -87.936487],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_e21b49c11f1944c4a04f3613a5506062 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed95fcb2afec44f7afa7a779f057b925 = $(`<div id="html_ed95fcb2afec44f7afa7a779f057b925" style="width: 100.0%; height: 100.0%;">Six Flags Great America  Num awarded steel coasters: 2</div>`)[0];
+            popup_e21b49c11f1944c4a04f3613a5506062.setContent(html_ed95fcb2afec44f7afa7a779f057b925);
+        
+
+        circle_2653da04145545a7bed34d759df8bbd0.bindPopup(popup_e21b49c11f1944c4a04f3613a5506062)
+        ;
+
+        
+    
+    
+            var circle_3ce3e251747548cfa9ab9bfb92437ffc = L.circle(
+                [57.7072326, 11.9670171],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_ac7e2588c99148bab1899db762e0c099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b47118e3673e407aa054ae560c88339a = $(`<div id="html_b47118e3673e407aa054ae560c88339a" style="width: 100.0%; height: 100.0%;">Liseberg  Num awarded steel coasters: 2</div>`)[0];
+            popup_ac7e2588c99148bab1899db762e0c099.setContent(html_b47118e3673e407aa054ae560c88339a);
+        
+
+        circle_3ce3e251747548cfa9ab9bfb92437ffc.bindPopup(popup_ac7e2588c99148bab1899db762e0c099)
+        ;
+
+        
+    
+    
+            var circle_84bd06131b6a4f4f817943304f6353f8 = L.circle(
+                [39.3600586, -84.309939],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_d696b4d04384408b93f8f2987d0a1d30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7147298766c446ff8820a4c6bf2580cb = $(`<div id="html_7147298766c446ff8820a4c6bf2580cb" style="width: 100.0%; height: 100.0%;">Kings Island  Num awarded steel coasters: 2</div>`)[0];
+            popup_d696b4d04384408b93f8f2987d0a1d30.setContent(html_7147298766c446ff8820a4c6bf2580cb);
+        
+
+        circle_84bd06131b6a4f4f817943304f6353f8.bindPopup(popup_d696b4d04384408b93f8f2987d0a1d30)
+        ;
+
+        
+    
+    
+            var circle_71792f5d8fe94d89b1cce2486bb64469 = L.circle(
+                [38.2542376, -85.759407],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_19d2367395e04bf097775a68302040b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35df9946918b41f98c75b743e59ca1c4 = $(`<div id="html_35df9946918b41f98c75b743e59ca1c4" style="width: 100.0%; height: 100.0%;">Kentucky Kingdom  Num awarded steel coasters: 2</div>`)[0];
+            popup_19d2367395e04bf097775a68302040b3.setContent(html_35df9946918b41f98c75b743e59ca1c4);
+        
+
+        circle_71792f5d8fe94d89b1cce2486bb64469.bindPopup(popup_19d2367395e04bf097775a68302040b3)
+        ;
+
+        
+    
+    
+            var circle_315d96534e51458e93e7d877c3e90e80 = L.circle(
+                [40.1151766, -74.3647772],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_cfb8bf7a305f45b4b5649ae1fc8ff6c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_345e6896a64e4b7eb7af2535e741aba1 = $(`<div id="html_345e6896a64e4b7eb7af2535e741aba1" style="width: 100.0%; height: 100.0%;">Six Flags Great Adventure  Num awarded steel coasters: 2</div>`)[0];
+            popup_cfb8bf7a305f45b4b5649ae1fc8ff6c1.setContent(html_345e6896a64e4b7eb7af2535e741aba1);
+        
+
+        circle_315d96534e51458e93e7d877c3e90e80.bindPopup(popup_cfb8bf7a305f45b4b5649ae1fc8ff6c1)
+        ;
+
+        
+    
+    
+            var circle_9722d9278bb34159ae391f0b3b3cc964 = L.circle(
+                [50.8291313, 6.9037057],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_8dae29f7631845d2b39341d7a58373cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8366d4c67dbd41719bdc7986dea0f6ef = $(`<div id="html_8366d4c67dbd41719bdc7986dea0f6ef" style="width: 100.0%; height: 100.0%;">Phantasialand  Num awarded steel coasters: 2</div>`)[0];
+            popup_8dae29f7631845d2b39341d7a58373cf.setContent(html_8366d4c67dbd41719bdc7986dea0f6ef);
+        
+
+        circle_9722d9278bb34159ae391f0b3b3cc964.bindPopup(popup_8dae29f7631845d2b39341d7a58373cf)
+        ;
+
+        
+    
+    
+            var circle_fb6ae2d6f2c147e98b15bf64d6e0a916 = L.circle(
+                [48.2659347, 7.7263213],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_0ca528224f5f4b499a4b60e99e1703cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7b404202aa4ec6b013fddc4b9562b0 = $(`<div id="html_8b7b404202aa4ec6b013fddc4b9562b0" style="width: 100.0%; height: 100.0%;">Europa-Park  Num awarded steel coasters: 2</div>`)[0];
+            popup_0ca528224f5f4b499a4b60e99e1703cb.setContent(html_8b7b404202aa4ec6b013fddc4b9562b0);
+        
+
+        circle_fb6ae2d6f2c147e98b15bf64d6e0a916.bindPopup(popup_0ca528224f5f4b499a4b60e99e1703cb)
+        ;
+
+        
+    
+    
+            var circle_72c5554749ba404e8f7d347c24db0df1 = L.circle(
+                [33.8126059, -84.6343783],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_aa01bf0b081748c28018c9cd2a3adfff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f111cca918fe4cc696db96ce62459372 = $(`<div id="html_f111cca918fe4cc696db96ce62459372" style="width: 100.0%; height: 100.0%;">Six Flags Over Georgia  Num awarded steel coasters: 2</div>`)[0];
+            popup_aa01bf0b081748c28018c9cd2a3adfff.setContent(html_f111cca918fe4cc696db96ce62459372);
+        
+
+        circle_72c5554749ba404e8f7d347c24db0df1.bindPopup(popup_aa01bf0b081748c28018c9cd2a3adfff)
+        ;
+
+        
+    
+    
+            var circle_8aa6e97755154ad494c87ab8194874ad = L.circle(
+                [32.701938999999996, -97.10562379033699],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_f99be82ed27b42ad813fcaaf39eaa454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a86b2cf5c624b53b7a9f3a9e96b6985 = $(`<div id="html_8a86b2cf5c624b53b7a9f3a9e96b6985" style="width: 100.0%; height: 100.0%;">Six Flags Over Texas  Num awarded steel coasters: 2</div>`)[0];
+            popup_f99be82ed27b42ad813fcaaf39eaa454.setContent(html_8a86b2cf5c624b53b7a9f3a9e96b6985);
+        
+
+        circle_8aa6e97755154ad494c87ab8194874ad.bindPopup(popup_f99be82ed27b42ad813fcaaf39eaa454)
+        ;
+
+        
+    
+    
+            var circle_1873726f10ba4395a149bcf15398bc5b = L.circle(
+                [35.2412292, -80.8226636],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_7f856d8e22aa40b1bbaa2d5046d7a4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b9aa3e652eb42dea955687845668ec8 = $(`<div id="html_3b9aa3e652eb42dea955687845668ec8" style="width: 100.0%; height: 100.0%;">Carowinds  Num awarded steel coasters: 2</div>`)[0];
+            popup_7f856d8e22aa40b1bbaa2d5046d7a4d1.setContent(html_3b9aa3e652eb42dea955687845668ec8);
+        
+
+        circle_1873726f10ba4395a149bcf15398bc5b.bindPopup(popup_7f856d8e22aa40b1bbaa2d5046d7a4d1)
+        ;
+
+        
+    
+    
+            var circle_1adfacd5a70a46b08d2d5cc55de47523 = L.circle(
+                [43.7941544, -79.5268023],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_aaacc1cfc3d64509817462014b4db06d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72898325ab8b47269000f6d3626f466f = $(`<div id="html_72898325ab8b47269000f6d3626f466f" style="width: 100.0%; height: 100.0%;">Canadas Wonderland  Num awarded steel coasters: 2</div>`)[0];
+            popup_aaacc1cfc3d64509817462014b4db06d.setContent(html_72898325ab8b47269000f6d3626f466f);
+        
+
+        circle_1adfacd5a70a46b08d2d5cc55de47523.bindPopup(popup_aaacc1cfc3d64509817462014b4db06d)
+        ;
+
+        
+    
+    
+            var circle_a5af2a801ad54d9095d1d032ccc4eb4a = L.circle(
+                [41.0768193, 1.1440411],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_8cd6cf6a7c0b45d1a3d52803753d90fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f0c4135c51b4afab0abdb9c7d536eb8 = $(`<div id="html_9f0c4135c51b4afab0abdb9c7d536eb8" style="width: 100.0%; height: 100.0%;">PortAventura  Num awarded steel coasters: 1</div>`)[0];
+            popup_8cd6cf6a7c0b45d1a3d52803753d90fc.setContent(html_9f0c4135c51b4afab0abdb9c7d536eb8);
+        
+
+        circle_a5af2a801ad54d9095d1d032ccc4eb4a.bindPopup(popup_8cd6cf6a7c0b45d1a3d52803753d90fc)
+        ;
+
+        
+    
+    
+            var circle_d9bd28dc66e549d19ab587290884c360 = L.circle(
+                [19.4326296, -99.1331785],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_319c611e4a6a4632b0557ae4b35d09b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9330a7f457e4e65a05495850394a385 = $(`<div id="html_d9330a7f457e4e65a05495850394a385" style="width: 100.0%; height: 100.0%;">Six Flags Mexico  Num awarded steel coasters: 1</div>`)[0];
+            popup_319c611e4a6a4632b0557ae4b35d09b7.setContent(html_d9330a7f457e4e65a05495850394a385);
+        
+
+        circle_d9bd28dc66e549d19ab587290884c360.bindPopup(popup_319c611e4a6a4632b0557ae4b35d09b7)
+        ;
+
+        
+    
+    
+            var circle_1538baeb76dd4ac9abc656a5ba020a65 = L.circle(
+                [29.4246002, -98.4951405],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_98b6bce94f2f43b481acc98e9a0f4a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d27c23310b094b72991f630396817abf = $(`<div id="html_d27c23310b094b72991f630396817abf" style="width: 100.0%; height: 100.0%;">Six Flags Fiesta Texas  Num awarded steel coasters: 1</div>`)[0];
+            popup_98b6bce94f2f43b481acc98e9a0f4a62.setContent(html_d27c23310b094b72991f630396817abf);
+        
+
+        circle_1538baeb76dd4ac9abc656a5ba020a65.bindPopup(popup_98b6bce94f2f43b481acc98e9a0f4a62)
+        ;
+
+        
+    
+    
+            var circle_97e489c588a44c758bca2750ae4549e8 = L.circle(
+                [38.907599, -76.775341],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_df7df2806a1a4d3baf1740bfbbd3d6b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c65db06dd2944cf8c82c0f28ddea1ef = $(`<div id="html_8c65db06dd2944cf8c82c0f28ddea1ef" style="width: 100.0%; height: 100.0%;">Six Flags America  Num awarded steel coasters: 1</div>`)[0];
+            popup_df7df2806a1a4d3baf1740bfbbd3d6b2.setContent(html_8c65db06dd2944cf8c82c0f28ddea1ef);
+        
+
+        circle_97e489c588a44c758bca2750ae4549e8.bindPopup(popup_df7df2806a1a4d3baf1740bfbbd3d6b2)
+        ;
+
+        
+    
+    
+            var circle_18c7897f4f3c47f6ae3dbf991dffdc4d = L.circle(
+                [36.6411357, -93.2175285],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_9ef503a218264e95b86a482b09744e47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb7a27bf1ca6473ba5481268274b4d82 = $(`<div id="html_fb7a27bf1ca6473ba5481268274b4d82" style="width: 100.0%; height: 100.0%;">Silver Dollar City  Num awarded steel coasters: 1</div>`)[0];
+            popup_9ef503a218264e95b86a482b09744e47.setContent(html_fb7a27bf1ca6473ba5481268274b4d82);
+        
+
+        circle_18c7897f4f3c47f6ae3dbf991dffdc4d.bindPopup(popup_9ef503a218264e95b86a482b09744e47)
+        ;
+
+        
+    
+    
+            var circle_c9327b3b4826486e9a6226123da96652 = L.circle(
+                [28.4861592, -81.0815348],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_5c4f4c5f713b47f5be91a708ebc90e90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59dcdbcbc21246c197a7174251a5a2dc = $(`<div id="html_59dcdbcbc21246c197a7174251a5a2dc" style="width: 100.0%; height: 100.0%;">SeaWorld Orlando  Num awarded steel coasters: 1</div>`)[0];
+            popup_5c4f4c5f713b47f5be91a708ebc90e90.setContent(html_59dcdbcbc21246c197a7174251a5a2dc);
+        
+
+        circle_c9327b3b4826486e9a6226123da96652.bindPopup(popup_5c4f4c5f713b47f5be91a708ebc90e90)
+        ;
+
+        
+    
+    
+            var circle_1e816a885bc641159fe36a7024c028cb = L.circle(
+                [52.824694199999996, -2.0074546723348115],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_e8791f99abba43a4aac2bfc30fa3bdf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10bddce08d314a5aa0998e99f0285850 = $(`<div id="html_10bddce08d314a5aa0998e99f0285850" style="width: 100.0%; height: 100.0%;">Alton Towers  Num awarded steel coasters: 1</div>`)[0];
+            popup_e8791f99abba43a4aac2bfc30fa3bdf5.setContent(html_10bddce08d314a5aa0998e99f0285850);
+        
+
+        circle_1e816a885bc641159fe36a7024c028cb.bindPopup(popup_e8791f99abba43a4aac2bfc30fa3bdf5)
+        ;
+
+        
+    
+    
+            var circle_c53e2760d38b4f4cbe97d2d48d15af47 = L.circle(
+                [19.4326296, -99.1331785],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_e7f7a8683e8b45d59daadcdfdba8123e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe2964d9c5c3434b989f64a5af45322a = $(`<div id="html_fe2964d9c5c3434b989f64a5af45322a" style="width: 100.0%; height: 100.0%;">La Feria  Num awarded steel coasters: 1</div>`)[0];
+            popup_e7f7a8683e8b45d59daadcdfdba8123e.setContent(html_fe2964d9c5c3434b989f64a5af45322a);
+        
+
+        circle_c53e2760d38b4f4cbe97d2d48d15af47.bindPopup(popup_e7f7a8683e8b45d59daadcdfdba8123e)
+        ;
+
+        
+    
+    
+            var circle_ea467c77c182472e957706243c0f341b = L.circle(
+                [57.6240059, 13.4628237],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_ab412ed16a62426aba84b34c40bdc7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b4c28f08b7e4e6f87e906d02019b4c7 = $(`<div id="html_8b4c28f08b7e4e6f87e906d02019b4c7" style="width: 100.0%; height: 100.0%;">Liseberg  Num awarded steel coasters: 1</div>`)[0];
+            popup_ab412ed16a62426aba84b34c40bdc7e7.setContent(html_8b4c28f08b7e4e6f87e906d02019b4c7);
+        
+
+        circle_ea467c77c182472e957706243c0f341b.bindPopup(popup_ab412ed16a62426aba84b34c40bdc7e7)
+        ;
+
+        
+    
+    
+            var circle_7a633ec173d64c78b88e6d3610d76bf6 = L.circle(
+                [40.9804423, -111.8874688],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_97c3885146734bbf9ea3cee2c81910f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01574ad99fad4e51bccf8d3f93570197 = $(`<div id="html_01574ad99fad4e51bccf8d3f93570197" style="width: 100.0%; height: 100.0%;">Lagoon  Num awarded steel coasters: 1</div>`)[0];
+            popup_97c3885146734bbf9ea3cee2c81910f4.setContent(html_01574ad99fad4e51bccf8d3f93570197);
+        
+
+        circle_7a633ec173d64c78b88e6d3610d76bf6.bindPopup(popup_97c3885146734bbf9ea3cee2c81910f4)
+        ;
+
+        
+    
+    
+            var circle_b8bd9cd8d29f45c2b1dc45a1b49f9914 = L.circle(
+                [45.4972159, -73.6103642],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_fa8855392ae9407c801ce4f3db9725c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_635df9940dc24c22bbaf97b307418817 = $(`<div id="html_635df9940dc24c22bbaf97b307418817" style="width: 100.0%; height: 100.0%;">La Ronde  Num awarded steel coasters: 1</div>`)[0];
+            popup_fa8855392ae9407c801ce4f3db9725c5.setContent(html_635df9940dc24c22bbaf97b307418817);
+        
+
+        circle_b8bd9cd8d29f45c2b1dc45a1b49f9914.bindPopup(popup_fa8855392ae9407c801ce4f3db9725c5)
+        ;
+
+        
+    
+    
+            var circle_9b79f7795e9648c88990e8ce84ab64f3 = L.circle(
+                [40.3634026, -79.8664375],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_a921ddaa01c444c2816caebbc2bd03bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939d14246de84906ad5706c22eff86f6 = $(`<div id="html_939d14246de84906ad5706c22eff86f6" style="width: 100.0%; height: 100.0%;">Kennywood  Num awarded steel coasters: 1</div>`)[0];
+            popup_a921ddaa01c444c2816caebbc2bd03bc.setContent(html_939d14246de84906ad5706c22eff86f6);
+        
+
+        circle_9b79f7795e9648c88990e8ce84ab64f3.bindPopup(popup_a921ddaa01c444c2816caebbc2bd03bc)
+        ;
+
+        
+    
+    
+            var circle_baaaab327a8042ed9347dc1dfddc7fa9 = L.circle(
+                [38.1200538, -86.9141607],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_7181763fc847474f90765edc25720865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42e0367cfd3e4b76a30bc8c4e3f8e3bc = $(`<div id="html_42e0367cfd3e4b76a30bc8c4e3f8e3bc" style="width: 100.0%; height: 100.0%;">Holiday World  Num awarded steel coasters: 1</div>`)[0];
+            popup_7181763fc847474f90765edc25720865.setContent(html_42e0367cfd3e4b76a30bc8c4e3f8e3bc);
+        
+
+        circle_baaaab327a8042ed9347dc1dfddc7fa9.bindPopup(popup_7181763fc847474f90765edc25720865)
+        ;
+
+        
+    
+    
+            var circle_1337aaf35fc84fe194f9f308abc0501a = L.circle(
+                [49.362976, 8.2565755],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_cc1be013233d4a439e0175b00b07cdeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72a4824e631b4b8790c98d87d1588923 = $(`<div id="html_72a4824e631b4b8790c98d87d1588923" style="width: 100.0%; height: 100.0%;">Holiday Park  Num awarded steel coasters: 1</div>`)[0];
+            popup_cc1be013233d4a439e0175b00b07cdeb.setContent(html_72a4824e631b4b8790c98d87d1588923);
+        
+
+        circle_1337aaf35fc84fe194f9f308abc0501a.bindPopup(popup_cc1be013233d4a439e0175b00b07cdeb)
+        ;
+
+        
+    
+    
+            var circle_ee72a7c0a25b435e8907efa26e3d24a8 = L.circle(
+                [40.2854881, -76.6506001],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_badfb1200c6244d496822c3c034a9dcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74aec4d24e1d4837a4cf576c9b22df45 = $(`<div id="html_74aec4d24e1d4837a4cf576c9b22df45" style="width: 100.0%; height: 100.0%;">Hersheypark  Num awarded steel coasters: 1</div>`)[0];
+            popup_badfb1200c6244d496822c3c034a9dcf.setContent(html_74aec4d24e1d4837a4cf576c9b22df45);
+        
+
+        circle_ee72a7c0a25b435e8907efa26e3d24a8.bindPopup(popup_badfb1200c6244d496822c3c034a9dcf)
+        ;
+
+        
+    
+    
+            var circle_d8fd9ef910944b7d917a706a88c75c5d = L.circle(
+                [59.3251172, 18.0710935],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_cff25c73763f42bdb30bd7d5c6bc709f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d8c0828423b45909385855fba090e21 = $(`<div id="html_9d8c0828423b45909385855fba090e21" style="width: 100.0%; height: 100.0%;">Gröna Lund  Num awarded steel coasters: 1</div>`)[0];
+            popup_cff25c73763f42bdb30bd7d5c6bc709f.setContent(html_9d8c0828423b45909385855fba090e21);
+        
+
+        circle_d8fd9ef910944b7d917a706a88c75c5d.bindPopup(popup_cff25c73763f42bdb30bd7d5c6bc709f)
+        ;
+
+        
+    
+    
+            var circle_51437470b7a9449687bc763d4e4a75d3 = L.circle(
+                [40.6022059, -75.4712794],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_580ce9360041416db7ba40b7385b34e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ffb76a9465467e8db2ec37f8f70111 = $(`<div id="html_48ffb76a9465467e8db2ec37f8f70111" style="width: 100.0%; height: 100.0%;">Dorney Park  Num awarded steel coasters: 1</div>`)[0];
+            popup_580ce9360041416db7ba40b7385b34e2.setContent(html_48ffb76a9465467e8db2ec37f8f70111);
+        
+
+        circle_51437470b7a9449687bc763d4e4a75d3.bindPopup(popup_580ce9360041416db7ba40b7385b34e2)
+        ;
+
+        
+    
+    
+            var circle_7b8b010d7aa04d6e8d97f451ae80fbb8 = L.circle(
+                [35.7884241, -83.5543329],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_7105a2ec7dd642be833f076066cbe45f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a8dcc796f3a46e3ad9b46c648d8b862 = $(`<div id="html_5a8dcc796f3a46e3ad9b46c648d8b862" style="width: 100.0%; height: 100.0%;">Dollywood  Num awarded steel coasters: 1</div>`)[0];
+            popup_7105a2ec7dd642be833f076066cbe45f.setContent(html_5a8dcc796f3a46e3ad9b46c648d8b862);
+        
+
+        circle_7b8b010d7aa04d6e8d97f451ae80fbb8.bindPopup(popup_7105a2ec7dd642be833f076066cbe45f)
+        ;
+
+        
+    
+    
+            var circle_89d0b36563f244dc8faf794b2ba5fcad = L.circle(
+                [28.4861592, -81.0815348],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_d749d3efaa564bc0bfc2ea49be884ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc53c65071834f70b7a4abf08903a1d4 = $(`<div id="html_dc53c65071834f70b7a4abf08903a1d4" style="width: 100.0%; height: 100.0%;">Disneys Animal Kingdom  Num awarded steel coasters: 1</div>`)[0];
+            popup_d749d3efaa564bc0bfc2ea49be884ae2.setContent(html_dc53c65071834f70b7a4abf08903a1d4);
+        
+
+        circle_89d0b36563f244dc8faf794b2ba5fcad.bindPopup(popup_d749d3efaa564bc0bfc2ea49be884ae2)
+        ;
+
+        
+    
+    
+            var circle_37004435a01b486485c8054f5de1ed90 = L.circle(
+                [48.2083537, 16.3725042],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20f1b3478614458a91127297df9e77b7);
+        
+    
+        var popup_6cf0d9e9607748648ed2c7265bd4ed05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c20fc53506141d78c8cd73f77e976f6 = $(`<div id="html_2c20fc53506141d78c8cd73f77e976f6" style="width: 100.0%; height: 100.0%;">Weiner Prater  Num awarded steel coasters: 1</div>`)[0];
+            popup_6cf0d9e9607748648ed2c7265bd4ed05.setContent(html_2c20fc53506141d78c8cd73f77e976f6);
+        
+
+        circle_37004435a01b486485c8054f5de1ed90.bindPopup(popup_6cf0d9e9607748648ed2c7265bd4ed05)
+        ;
+
+        
+    
+</script>
